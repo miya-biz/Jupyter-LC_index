@@ -1,11 +1,11 @@
 # lc_index
 
-[![Github Actions Status](https://github.com/entap/jupyterlab_lc_index/workflows/Build/badge.svg)](https://github.com/entap/jupyterlab_lc_index/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/entap/jupyterlab_lc_index/main?urlpath=lab)
+[![Github Actions Status](https://github.com/entap/jupyterlab_lc_index.git/workflows/Build/badge.svg)](https://github.com/entap/jupyterlab_lc_index.git/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/entap/jupyterlab_lc_index.git/main?urlpath=lab)
 Open README on started
 
 ## Requirements
 
-- JupyterLab >= 3.0
+- JupyterLab >= 4.0.0
 
 ## Install
 
@@ -37,7 +37,7 @@ The `jlpm` command is JupyterLab's pinned version of
 # Clone the repo to your local environment
 # Change directory to the lc_index directory
 # Install package in development mode
-pip install -e .
+pip install -e "."
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
 # Rebuild extension Typescript source after making changes
